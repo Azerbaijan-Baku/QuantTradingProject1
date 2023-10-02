@@ -18,3 +18,5 @@ for symbol in symbols:
 # Print the market capitalization for each symbol
 for symbol, market_cap in market_caps.items():
     print(f'{symbol} Market Cap: {market_cap}')
+
+    #AAL = 8.6 billion, DAL = 23.8 billion (in USD)

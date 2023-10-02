@@ -56,3 +56,4 @@ print(f"Intercept: {intercept:.4f}")
 print(f"R-squared: {r_value**2:.4f}")
 
 #해리 마코위츠 Harry Markowitz's modern portfolio Theory (MPT)
+#R-Square = 0.8051

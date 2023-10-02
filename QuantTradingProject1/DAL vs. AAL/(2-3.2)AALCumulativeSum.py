@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 symbol = 'AAL'
 
 # Fetch the stock data from Yahoo Finance for AAL
-data = yf.download(symbol, start="2020-01-01", end="2023-01-01")
+data = yf.download(symbol, start="2020-01-01", end="2023-09-30")
 
 # Calculate daily returns
 data['Daily Returns'] = data['Adj Close'].pct_change()
